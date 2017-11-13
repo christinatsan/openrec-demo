@@ -1,12 +1,13 @@
 # Setup
 title:        Open Rec
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      An open-source modular framework for recommendation and personalization
 baseurl:      /openrec-demo
 paginate:     1
+published: false
 
 # About/contact
 author:
-  name:       Author name
+  name:       Small Data Lab
   url:        http://christinatsan.github.io
 
 # Gems
