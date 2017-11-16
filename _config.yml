@@ -1,7 +1,7 @@
 # Setup
 title:        OpenRec
 tagline:      An open-source modular framework for recommendation and personalization
-baseurl:      /openrec-demo
+baseurl:      "/openrec-demo"
 paginate:     1
 published: false
 
