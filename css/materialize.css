@@ -3,6 +3,47 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+.sunshine {
+  background-color: #F7B733 !important;
+}
+
+.light-yellow {
+  background-color: #F9CF00 !important;
+}
+
+.grape-purple {
+  background-color: #94618E !important;
+}
+
+.grape-purple-text {
+  color: #94618E !important;
+}
+
+.eggplant-purple {
+  background-color: #49274A !important;
+}
+
+.eggplant-purple-text {
+  color: #49274A !important;
+}
+
+.sand {
+  background-color: #F4DECB !important;
+}
+
+.sand-text {
+  color: #F4DECB !important;
+}
+
+.shell {
+  background-color: #F8EEE7 !important;
+}
+
+.shell {
+  color: #F8EEE7 !important;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2289,6 +2330,8 @@ dfn {
   font-style: italic;
 }
 
+
+
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
@@ -4301,7 +4344,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 nav .brand-logo.center {
@@ -4453,6 +4496,11 @@ nav .input-field label.active i {
 }
 
 @font-face {
+  font-family: "Ubuntu",sans-serif;
+
+}
+
+@font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
   font-weight: 100;
@@ -4484,6 +4532,14 @@ nav .input-field label.active i {
 
 a {
   text-decoration: none;
+}
+
+logo-text {
+  font-family: "Ubuntu",sans-serif;
+}
+
+@font-face {
+  font-family: "Ubuntu",sans-serif;
 }
 
 html {
