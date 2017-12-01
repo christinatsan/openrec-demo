@@ -4,6 +4,23 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+
+.linkblue-color-text {
+  color: #0645AD !important;
+}
+
+  div.test
+  {
+  width: 450px;
+  height: 50px;
+  align-content: center;
+  padding-left: 20px;
+  border: 2px solid #F7B733;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  }
+
+
 .sunshine {
   background-color: #F7B733 !important;
 }
