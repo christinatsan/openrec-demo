@@ -17,8 +17,58 @@
   padding-left: 20px;
   border: 2px solid #F7B733;
   border-radius: 15px;
-  -moz-border-radius: 15px;
+  position: absolute;
+/*  -moz-border-radius: 15px;*/
   }
+
+div.command {
+  width: 250px;
+  height: 50px;
+  background-color: #F7B733;
+  align-content: center;
+  padding-left: 20px;
+  border: 2px solid #F7B733;
+  border-radius: 15px 0px 0px 15px;
+  position: absolute;
+ /* -moz-border-radius: 15px;*/
+}
+
+.command_container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%;
+  position: relative;
+}
+
+.command_container {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+.one {
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    background-color: #F7B733;
+    border: 2px solid #F7B733;
+    align-content: center;
+    border-radius: 15px 0px 0px 15px;
+    position: absolute;
+}
+.two {
+    margin-left: 250px;
+    padding-top: 15px;
+    padding-left: 10px;
+    align-content: center;
+    width: 450px;
+    height: 50px;
+    border: 2px solid #F7B733;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+}
 
 
 .sunshine {
