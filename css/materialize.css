@@ -50,21 +50,24 @@ div.command {
     position: relative;
 }*/
 .one {
+    display: flex;
+    justify-content: center;
     width: 230px;
     height: 50px;
     float: left;
-    padding-left: 10px;
+    padding-left: auto;
     background-color: #F7B733;
     border: 2px solid #F7B733;
-   
+    align-items: center;
     border-radius: 15px 0px 0px 15px;
     position: absolute;
 }
 .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 230px;
-    padding-top: 15px;
-    padding-left: 10px;
-    
+    padding-left: auto;
     width: 200px;
     height: 50px;
     border: 2px solid #F7B733;
@@ -3020,6 +3023,7 @@ ul.staggered-list li {
 }
 
 .page-footer {
+  bottom: 0;
   padding-top: 20px;
   color: #fff;
   background-color: #ee6e73;
@@ -3037,8 +3041,7 @@ ul.staggered-list li {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+
 }
 
 table, th, td {
