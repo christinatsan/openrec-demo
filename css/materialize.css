@@ -37,19 +37,20 @@ div.command {
 .command_container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 80%;
+  width: 50%;
   position: relative;
+  align-content: center;
 }
 
-.command_container {
+/*.command_container {
     width: 80%;
     height: 100px;
     margin: auto;
     padding: 10px;
     position: relative;
-}
+}*/
 .one {
-    width: 250px;
+    width: 230px;
     height: 50px;
     float: left;
     padding-left: 10px;
@@ -60,11 +61,11 @@ div.command {
     position: absolute;
 }
 .two {
-    margin-left: 250px;
+    margin-left: 230px;
     padding-top: 15px;
     padding-left: 10px;
     align-content: center;
-    width: 450px;
+    width: 200px;
     height: 50px;
     border: 2px solid #F7B733;
     border-radius: 0px 15px 15px 0px;
@@ -3515,7 +3516,13 @@ nav ul a span.badge {
 .header_container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 100%;
+  width: 70%;
+}
+
+.headertext_container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 60%;
 }
 
 @media only screen and (min-width: 601px) {
