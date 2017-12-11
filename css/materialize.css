@@ -56,7 +56,7 @@ div.command {
     padding-left: 10px;
     background-color: #F7B733;
     border: 2px solid #F7B733;
-    align-content: center;
+   
     border-radius: 15px 0px 0px 15px;
     position: absolute;
 }
@@ -64,7 +64,7 @@ div.command {
     margin-left: 230px;
     padding-top: 15px;
     padding-left: 10px;
-    align-content: center;
+    
     width: 200px;
     height: 50px;
     border: 2px solid #F7B733;
