@@ -6,6 +6,19 @@
 
 /*new css not loading..*/
 
+.req_paragraph {
+  margin:0;
+}
+
+.req_last {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.req_header {
+  margin-bottom:15px;
+}
+
 .linkblue-color-text {
   color: #0645AD !important;
 }
@@ -40,7 +53,8 @@ div.command {
   display: table;
   margin-right: auto;
   margin-left: auto;
-  
+  display: flex;   
+  flex-wrap: wrap;
   width: 50%;
   position: relative;
   
